@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Expense Chart</title>
+    </head>
+    <body>
+        <div class="balance item">
+            <div>
+                <p>My balance</p>
+                <span class="current">$921.48</span>
+            </div>
+            <div>
+                <img src="img/logo.svg" alt="Company logo" height="40" class="logo">
+            </div>
+        </div>
+        <div class="chart item">
+            <h1>Spending - Last 7 days</h1>
+            <div class="chart-wrapper">
+                
+                <div class="mon">
+                    <div></div>
+                    <div class="day"><span class="data-display"></span></div>
+                    <p>mon</p>
+                </div>
+                <div class="tue">
+                    <div ></span></div>
+                    <div class="day"><span class="data-display"></span></div>
+                    <p>tue</p>
+                </div>
+                <div class="wed">
+                    <div></div>
+                    <div class="day today"><span class="data-display"></span></div>
+                    <p>wed</p>
+                </div>
+                <div class="thu">
+                    <div></div>
+                    <div class="day"><span class="data-display"></span></div>
+                    <p>thu</p>
+                </div>
+                <div class="fri">
+                    <div></div>
+                    <div class="day"><span class="data-display"></span></div>
+                    <p>fri</p>
+                </div>
+                <div class="sat">
+                    <div></div>
+                    <div class="day"><span class="data-display"></span></div>
+                    <p>sat</p>
+                </div>
+                <div class="sun">
+                    <div></div>
+                    <div class="day"><span class="data-display"></span></div>
+                    <p>sun</p>
+                </div>
+            </div>
+        </div>
+        <div class="total item">
+            <div>
+                <p class="info">Total this month</p>
+                <span class="expenses">$478.33</span>
+            </div>
+            <div>
+                <p class="percent">+2.4%</p>
+                <p class="info">from last month</p>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
