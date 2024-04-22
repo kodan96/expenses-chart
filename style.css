@@ -172,9 +172,30 @@ body {
     .balance,
     .chart,
     .total {
-        width: 700px;
+        width: 650px;
+    }
+
+    .chart-wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        margin-bottom: 40rem;
     }
     .day {
-        width: 80px
+        width: 60px
+    }
+
+    .data-display {
+        width: 80%;
+        left: 6px;
+        font-size: .4em;
+        top: -40px;
+    }
+
+    .balance,
+    .total {
+        padding-inline: 4rem;
     }
 }
