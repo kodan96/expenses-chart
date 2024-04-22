@@ -174,3 +174,7 @@ body {
     .total {
         width: 700px;
     }
+    .day {
+        width: 80px
+    }
+}
